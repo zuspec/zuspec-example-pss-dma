@@ -1,0 +1,11 @@
+package:
+  name: zuspec-example-pss-dma
+
+  dep-sets:
+  - name: default
+    deps: []
+  
+  - name: default-dev
+    deps:
+    - name: zuspec
+      url: https://github.com/zuspec/zuspec.git
